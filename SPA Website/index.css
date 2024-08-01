@@ -1,0 +1,75 @@
+body {
+    font-family: 'Bangers', cursive;
+    background-image: url(https://www.komar.de/media/catalog/product/cache/5/image/9df78eab33525d08d6e5fb8d27136e95/I/A/IADX4-078.jpg);
+    background-size: cover;
+}
+
+.uk-card-title {
+    font-family: 'Bangers', cursive;
+    font-size: 3rem;
+}
+a {
+    text-decoration: none !important;
+}
+
+.uk-card-body {
+    text-align: center;
+}
+
+.uk-modal-body {
+    text-align: center;
+}
+
+.uk-flex-middle {
+    align-items: center !important;
+}
+
+.uk-container {
+    padding-bottom: 10rem;
+
+}
+
+.uk-margin {
+    margin-bottom: 1px !important;
+}
+
+.uk-button {
+    font-size:2rem;
+    display:contents;
+    color: rgb(103, 202, 221);
+}
+
+@media (min-width: 640px) {
+    .uk-container {
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 30px;
+    }
+}
+
+.uk-card-secondary {
+    height: 30rem;
+    width: 70rem;
+    background-color: rgb(42 37 56) !important;
+    
+}
+
+.uk-card-default {
+    background-color: rgb(42 37 56);
+}
+.uk-card-default .uk-card-title {
+    color: rgb(103, 202, 221);
+}
+.canvas, img, video {
+    max-width: 20rem;
+    height: 20rem;
+    box-sizing: border-box;
+}
+
+
+.address, dl, fieldset, figure, ol, p, pre {
+    font-size:1.5rem;
+    margin-left: 20px !important;
+    margin: 0 0 20px 0;
+    color: rgb(103, 202, 221)  !important;
+}
